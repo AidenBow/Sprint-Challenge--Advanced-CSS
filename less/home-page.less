@@ -30,7 +30,7 @@
       border-radius: 20px;
       height: 100%;
 
-      @media @mobile {
+      @media @phone {
         width: 100%;
       }
     }
@@ -63,14 +63,14 @@
     display: flex;
     justify-content: center;
 
-    @media @mobile {
+    @media @phone {
       flex-direction: column-reverse;
       padding: 20px 0;
     }
 
     .walk-text {
       width: 50%;
-      @media @mobile {
+      @media @phone {
         width: 100%;
         padding: 20px;
       }
@@ -86,7 +86,7 @@
       .btn {
         .button(white, @btn-bg-color);
 
-        @media @mobile {
+        @media @phone {
           width: 100%;
           padding: 30px 0;
         }
@@ -95,6 +95,7 @@
       .btn:hover {
         transition: 0.2s;
         background-color: lighten(@btn-bg-color, 30%);
+        color: darken(white, 100%);
       }
     }
 
@@ -102,7 +103,7 @@
       width: 46%;
       margin-left: 4%;
       
-      @media @mobile {
+      @media @phone {
         width: 90%;
       }
       img {

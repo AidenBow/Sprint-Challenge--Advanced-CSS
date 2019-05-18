@@ -3,6 +3,11 @@
     display: none;
   }
 }
+.menu-text {
+  text-decoration: none;
+  color: #454A59;
+  font-size: 1.8rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -172,6 +177,9 @@ p {
   margin: 0 auto;
   padding: 10px;
   border: 1px solid #F1F1F1;
+  position: sticky;
+  top: 0px;
+  opacity: 0.8;
 }
 .nav-container #title-container {
   display: flex;
@@ -293,6 +301,7 @@ footer {
 .home .walk .walk-text .btn:hover {
   transition: 0.2s;
   background-color: #5b6b9a;
+  color: #000000;
 }
 .home .walk .walk-img {
   width: 46%;
