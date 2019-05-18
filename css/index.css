@@ -176,13 +176,13 @@ p {
   display: flex;
   justify-content: space-around;
   justify-items: center;
-  margin: 20px auto 10px auto;
+  margin: 20px auto 8px auto;
   width: 40%;
 }
 .nav-container nav a {
   text-decoration: none;
   color: #454A59;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 footer {
   color: #22283B;
@@ -193,6 +193,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
