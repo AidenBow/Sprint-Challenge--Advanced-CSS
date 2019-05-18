@@ -1,13 +1,7 @@
-.button {
-  padding: 10px;
-  text-align: center;
-  width: 30%;
-  height: 13%;
-  color: white;
-  background-color: #22283A;
-  font-size: 1.7rem;
-  border-radius: 5px;
-  cursor: pointer;
+@media (max-width: 500px) {
+  .mobile-hide {
+    display: none;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -181,9 +175,8 @@ p {
 }
 .nav-container #title-container {
   display: flex;
-  width: 100%;
+  justify-content: center;
   font-size: 4rem;
-  margin-left: 30%;
 }
 .nav-container nav {
   display: flex;

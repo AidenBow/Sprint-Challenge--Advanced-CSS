@@ -1,11 +1,17 @@
-.button {
+.button(@text-color, @bg-color) {
   padding: 10px;
   text-align: center;
   width: 30%;
   height: 13%;;
-  color: white;
-  background-color: @btn-bg-color;
+  color: @text-color;
+  background-color: @bg-color;
   font-size: 1.7rem;
   border-radius: 5px;
   cursor:pointer;
+}
+
+.mobile-hide {
+  @media @mobile {
+    display: none;
+  }
 }

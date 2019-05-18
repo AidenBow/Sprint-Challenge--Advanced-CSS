@@ -36,15 +36,11 @@
     }
 
     .sky {
-      @media @mobile {
-        display: none;
-      }
+      .mobile-hide;
     }
 
     .launch {
-      @media @mobile {
-        display: none;
-      }
+      .mobile-hide;
     }
   }
 
@@ -88,7 +84,7 @@
       }
 
       .btn {
-        .button;
+        .button(white, @btn-bg-color);
 
         @media @mobile {
           width: 100%;
