@@ -1,1 +1,24 @@
-// Mixins Here
+.button(@text-color, @bg-color) {
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+  height: 13%;;
+  color: @text-color;
+  background-color: @bg-color;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+
+.mobile-hide {
+  @media @phone {
+    display: none;
+  }
+}
+
+.menu-text {
+  text-decoration: none;
+  color: @river-bend;
+  font-size: 1.8rem;
+}
